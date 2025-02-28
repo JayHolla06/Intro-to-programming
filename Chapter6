@@ -1,0 +1,10 @@
+# Exercise 6-8: Pets
+pets = [
+    {"name": "Buddy", "animal": "dog", "owner": "Alice"},
+    {"name": "Whiskers", "animal": "cat", "owner": "Bob"},
+    {"name": "Goldie", "animal": "fish", "owner": "Charlie"}
+]
+
+for pet in pets:
+    print(f"Pet Name: {pet['name']}, Animal: {pet['animal']}, Owner: {pet['owner']}")
+     
